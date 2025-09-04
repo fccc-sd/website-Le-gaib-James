@@ -1,0 +1,59 @@
+ul
+{
+list-style-type: disc;
+list-style-position: outside;
+list-style-image: url("../images/star-transparent.png");
+}
+
+ol
+{
+list-style-type: decimal;
+}
+
+h1, h3, h4
+{
+
+}
+
+h4
+{
+    font-family: sans-serif;
+}
+
+p em
+{
+color:firebrick;
+}
+
+nav
+{
+    background-color: blueviolet;
+    line-height: 200%;
+    display: block;
+}
+
+nav li
+{
+    display: inline;
+    padding: right 40px;
+    list-style-type: none;
+}
+
+nav a:link
+{
+    color:white;
+}
+nav a:visited
+{
+    color:white;
+}
+
+nav a:hover
+{
+    text-decoration: underline;
+}
+nav a:active
+{
+    color:red;
+    text-decoration: underline;
+}
